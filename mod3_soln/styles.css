@@ -7,15 +7,40 @@ body {
 }
 .navbar{
 	margin: -20px;
+	
 }
+
 .navbar-brand{
+
 	font-size: xx-large;
 	font-weight: bolder;
+	
+}
+.navbar-nav{
+	position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 80px;
+    width: 100%;
+}
+.nav-link{
+	 font-size: 15px;
+ 	 color: #818181;
+ 	 display: block;
+ 	 height: 30px;
+ 	 margin: 0px; 
+ 	 padding: 0;
+ 	 text-align: center;
+ 	
+}
+hr{
+	width: 100%;
 }
 h2{
 	text-align: center;
-	margin: 50px;
-	color: #FA255E
+	margin-top: 50px;
+	margin-bottom: 30px;
+	color: #FA255E;
 }
 h3{
 	text-align: center;
@@ -30,5 +55,9 @@ h3{
 @media (max-width: 767px){
 	.container-fluid{
 		width: 80%;
+	}
+	h2{
+	margin-top: 200px;
+	margin-bottom: 30px;
 	}
 }
