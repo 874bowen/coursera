@@ -1,0 +1,34 @@
+
+body {
+	font-size: 16px;
+	background-color: #C39EA0;
+	color: #000000;
+	margin: 20px;
+}
+.navbar{
+	margin: -20px;
+}
+.navbar-brand{
+	font-size: xx-large;
+	font-weight: bolder;
+}
+h2{
+	text-align: center;
+	margin: 50px;
+	color: #FA255E
+}
+h3{
+	text-align: center;
+	color: #173e43;
+}
+.container-fluid{
+	margin: auto;
+	border-radius: 0px;
+	border-style: solid;
+	border-color: #173e43;
+}
+@media (max-width: 767px){
+	.container-fluid{
+		width: 80%;
+	}
+}
